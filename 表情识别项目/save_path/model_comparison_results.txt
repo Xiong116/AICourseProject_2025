@@ -1,0 +1,3 @@
+Model: ResNet18, Best Val Acc: 90.62%, Test Acc: 91.1%
+Model: VGG11, Best Val Acc: 90.62%, Test Acc: 91.1%
+Model: MobileNetV2, Best Val Acc: 89.0%, Test Acc: 88.4%

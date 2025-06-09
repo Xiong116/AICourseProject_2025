@@ -1,0 +1,28 @@
+{
+"name": "fer_new",
+"version": "1.0.0",
+"dependencies": {
+},
+  "model_config": {
+    "train_data_root": "./archive/DATASET/train",
+    "test_data_root": "./archive/DATASET/test",
+    "train_label_root": "./archive/train_labels.csv",
+    "test_label_root": "./archive/test_labels.csv",
+    "log_path": "./logs/",
+    "max_train_size": 8000,
+    "max_test_size": 1000,
+    "val_rate": 0.1,
+    "num_class": 7,
+    "device": "cuda",
+    "seed": 0,
+    "switch": 0,
+    "save_path": "./save_path/",
+    "model_save_path": "./save_path/ResNet18_best.pth",
+    "batch_size": 8,
+    "epochs": 50,
+    "img_size": 224,
+    "learning_rate": 0.000035,
+    "weight_decay": 1e-4,
+    "optimizer": "Adam"
+  }
+}
