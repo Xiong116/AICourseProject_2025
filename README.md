@@ -4,11 +4,11 @@
 
 ## 📚 项目概览
 
-### 1. CIFAR-10 图像分类（Image Classification on CIFAR-10）
+### 1. 对比三种模型的人脸表情识别（Face Expression Recognition with Transfer Learning）
 
-- **描述**：使用 ResNet18 模型对 CIFAR-10 数据集进行图像分类任务。
+- **描述**：比较 ResNet18、VGG11 和 MobileNetV2 在人脸表情识别任务上的表现，基于迁移学习方法。使用OpenCV库实现本地摄像头的调用，采用最优模型进行表情识别，并实时显示。
 - **技术栈**：PyTorch
-- **应用场景**：物体识别、图像检索系统。
+- **应用场景**：人机交互界面、情绪分析软件。
 
 ### 2. 基于 GAN 的图像修复（GAN-based Image Inpainting）
 
@@ -16,26 +16,30 @@
 - **技术栈**：DCGAN / PyTorch
 - **应用场景**：老照片修复、艺术作品恢复。
 
-### 3. 基于 CNN 的手写体数字识别（Handwritten Digit Recognition with CNN）
-
-- **描述**：采用卷积神经网络（CNN）对 MNIST 数据集中的手写数字进行识别。
-- **技术栈**：TensorFlow
-- **应用场景**：文档数字化、银行支票识别。
-
-### 4. ICNet 猫狗动物识别（ICNet for Cat and Dog Classification）
-
-- **描述**：使用 ICNet 网络结构对猫狗图片进行二分类任务。
-- **技术栈**：Keras / TensorFlow
-- **应用场景**：宠物监控、智能喂食系统。
-
-### 5. UNet 图像增强（UNet for Image Enhancement）
+### 3. UNet 图像增强（UNet for Image Enhancement）
 
 - **描述**：通过 UNet 网络结构改善低质量图像的质量。
 - **技术栈**：PyTorch
 - **应用场景**：医疗影像分析、卫星遥感图像处理。
 
-### 6. 对比三种模型的人脸表情识别（Face Expression Recognition with Transfer Learning）
+### 4. CIFAR-10 图像分类（Image Classification on CIFAR-10）
 
-- **描述**：比较 ResNet18、VGG11 和 MobileNetV2 在人脸表情识别任务上的表现，基于迁移学习方法。
+- **描述**：使用 ResNet18 模型对 CIFAR-10 数据集进行图像分类任务。
 - **技术栈**：PyTorch
-- **应用场景**：人机交互界面、情绪分析软件。
+- **应用场景**：物体识别、图像检索系统。
+
+### 5. 基于 CNN 的手写体数字识别（Handwritten Digit Recognition with CNN）
+
+- **描述**：采用卷积神经网络（CNN）对 MNIST 数据集中的手写数字进行识别。
+- **技术栈**：TensorFlow
+- **应用场景**：文档数字化、银行支票识别。
+
+### 6. ICNet 猫狗动物识别（ICNet for Cat and Dog Classification）
+
+- **描述**：使用 ICNet 网络结构对猫狗图片进行二分类任务。
+- **技术栈**：Keras / TensorFlow
+- **应用场景**：宠物监控、智能喂食系统。
+
+
+
+
